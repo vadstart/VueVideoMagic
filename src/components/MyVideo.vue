@@ -35,5 +35,8 @@ watch(video,(video) => {
 </script>
 
 <template>
-  <video :autoplay='true' :controls="true" preload="metadata" :loop="true" :muted="true" playsinline ref="video" :src="props.src"/>
+  <video :autoplay='true' :controls="true" preload="metadata" :loop="true" :muted="true" playsinline ref="video" >
+    <source :src="props.src" type="video/mp4"/>
+    Your browser does not support the video tag.
+  </video>
 </template>
