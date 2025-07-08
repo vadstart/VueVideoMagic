@@ -149,6 +149,9 @@
 </template>
 
 <script>
+
+
+console.log('d')
 export default {
     name: "About",
 };

@@ -10,6 +10,7 @@
   import Header from './components/Header.vue';
   import ProjectNav from './components/ProjectNav.vue';
 
+
 export default {
   components: {
     Header,
